@@ -1,0 +1,35 @@
+2025-05-04 14:23:26,516 - ERROR - name 'pppppp' is not defined
+Traceback (most recent call last):
+  File "C:\Users\acer\Desktop\restaurant\main\views.py", line 23, in index
+    pppppp
+NameError: name 'pppppp' is not defined
+2025-05-04 14:23:49,409 - ERROR - name 'pppppp' is not defined
+Traceback (most recent call last):
+  File "C:\Users\acer\Desktop\restaurant\main\views.py", line 23, in index
+    pppppp
+NameError: name 'pppppp' is not defined
+2025-05-04 22:28:22,642 - ERROR - name 'pppppp' is not defined
+Traceback (most recent call last):
+  File "C:\Users\acer\Desktop\restaurant\main\views.py", line 23, in index
+    pppppp
+NameError: name 'pppppp' is not defined
+2025-05-04 22:28:31,343 - ERROR - name 'pppppp' is not defined
+Traceback (most recent call last):
+  File "C:\Users\acer\Desktop\restaurant\main\views.py", line 23, in index
+    pppppp
+NameError: name 'pppppp' is not defined
+2025-05-04 22:28:43,888 - ERROR - name 'pppppp' is not defined
+Traceback (most recent call last):
+  File "C:\Users\acer\Desktop\restaurant\main\views.py", line 23, in index
+    pppppp
+NameError: name 'pppppp' is not defined
+2025-05-05 11:35:27,266 - ERROR - name 'pppppp' is not defined
+Traceback (most recent call last):
+  File "C:\Users\acer\Desktop\restaurant\main\views.py", line 23, in index
+    pppppp
+NameError: name 'pppppp' is not defined
+2025-05-05 11:35:42,593 - ERROR - name 'pppppp' is not defined
+Traceback (most recent call last):
+  File "C:\Users\acer\Desktop\restaurant\main\views.py", line 23, in index
+    pppppp
+NameError: name 'pppppp' is not defined
