@@ -73,10 +73,10 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 SOCIAL_AUTH_URL_NAMESPACE = 'social'
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '1056783823397-mn4l6h64n7oppvfsq61f6hj7sv5p4mmi.apps.googleusercontent.com'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
-SOCIAL_AUTH_GITHUB_KEY = 'Ov23liwAcRtbhv5d3A3v'
-SOCIAL_AUTH_GITHUB_SECRET = 'ccc894ba34e486a91075753a33886cdd1c9b77d9'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = config('SOCIAL_AUTH_GOOGLE_OAUTH2_KEY')
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET =config('SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET')
+SOCIAL_AUTH_GITHUB_KEY = config('SOCIAL_AUTH_GITHUB_KEY')
+SOCIAL_AUTH_GITHUB_SECRET = config('SOCIAL_AUTH_GITHUB_SECRET')
 
 
 ROOT_URLCONF = 'restaurant.urls'
@@ -115,7 +115,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'restaurant',
         'USER': 'postgres',
-        'PASSWORD': 'Godse@2025',
+        'PASSWORD': config('DATABASE_PASSWORD'),
         'HOST': 'localhost',
         'PORT': '5432'
     }
@@ -163,19 +163,19 @@ MEDIA_URL='/media/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+DEFAULT_AUTO_FIELD = config('DEFAULT_AUTO_FIELD')
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND = config('EMAIL_BACKEND ')
 
-EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST = config('EMAIL_HOST')
 
-EMAIL_PORT = 587
+EMAIL_PORT = config('EMAIL_PORT ')
 
-EMAIL_USE_TLS = True
+EMAIL_USE_TLS = config('EMAIL_USE_TLS')
 
-EMAIL_HOST_USER = 'crisco.alaron@gmail.com'
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
 
-EMAIL_HOST_PASSWORD = 'rhcs qwci ehwd aysw'
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD   ')
 
 
 #logger
